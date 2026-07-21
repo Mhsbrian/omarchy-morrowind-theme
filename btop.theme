@@ -1,0 +1,85 @@
+# Morrowind (dark) btop theme
+# Gold UI chrome on dark ash-brown. No blues: gradients run through the
+# aged-document range — gold, copper, olive, verdigris, health red.
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#14100A"
+
+# Main text color
+theme[main_fg]="#CAA560"
+
+# Title color for boxes
+theme[title]="#DFC99F"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#D9B167"
+
+# Background color of selected items
+theme[selected_bg]="#4A3B22"
+
+# Foreground color of selected items
+theme[selected_fg]="#F3EDDD"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#5A4E38"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#8A7A5C"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#8A9A4E"
+
+# Cpu box outline color
+theme[cpu_box]="#8A6A34"
+
+# Memory/disks box outline color
+theme[mem_box]="#8A6A34"
+
+# Net up/down box outline color
+theme[net_box]="#8A6A34"
+
+# Processes box outline color
+theme[proc_box]="#8A6A34"
+
+# Box divider line and small boxes line color
+theme[div_line]="#4A3B22"
+
+# Temperature graph colors
+theme[temp_start]="#6FA089"
+theme[temp_mid]="#D9B167"
+theme[temp_end]="#DA4F2B"
+
+# CPU graph colors
+theme[cpu_start]="#D9B167"
+theme[cpu_mid]="#E85A38"
+theme[cpu_end]="#DA4F2B"
+
+# Mem/Disk free meter
+theme[free_start]="#6B7A38"
+theme[free_mid]=""
+theme[free_end]="#A9B665"
+
+# Mem/Disk cached meter
+theme[cached_start]="#8A5A28"
+theme[cached_mid]=""
+theme[cached_end]="#B87333"
+
+# Mem/Disk available meter
+theme[available_start]="#8A6A34"
+theme[available_mid]=""
+theme[available_end]="#D9B167"
+
+# Mem/Disk used meter
+theme[used_start]="#DA4F2B"
+theme[used_mid]=""
+theme[used_end]="#E85A38"
+
+# Download graph colors
+theme[download_start]="#3F6E5E"
+theme[download_mid]="#6FA089"
+theme[download_end]="#93BFA7"
+
+# Upload graph colors
+theme[upload_start]="#8A5A28"
+theme[upload_mid]="#B87333"
+theme[upload_end]="#D08B4C"

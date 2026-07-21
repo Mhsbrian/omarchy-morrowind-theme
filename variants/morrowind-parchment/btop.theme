@@ -1,0 +1,85 @@
+# Morrowind (parchment) btop theme
+# Sepia ink on tea-stained parchment. No blues: gradients run through the
+# aged-document range — amber, copper, olive, verdigris, health red.
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#E0D2B0"
+
+# Main text color
+theme[main_fg]="#3B2F1E"
+
+# Title color for boxes
+theme[title]="#261D0E"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#6E5228"
+
+# Background color of selected items
+theme[selected_bg]="#C6B58A"
+
+# Foreground color of selected items
+theme[selected_fg]="#261D0E"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#A99870"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#7E7052"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#4D5C24"
+
+# Cpu box outline color
+theme[cpu_box]="#8F6E1E"
+
+# Memory/disks box outline color
+theme[mem_box]="#8F6E1E"
+
+# Net up/down box outline color
+theme[net_box]="#8F6E1E"
+
+# Processes box outline color
+theme[proc_box]="#8F6E1E"
+
+# Box divider line and small boxes line color
+theme[div_line]="#B3A276"
+
+# Temperature graph colors
+theme[temp_start]="#2F5546"
+theme[temp_mid]="#6F5213"
+theme[temp_end]="#982D16"
+
+# CPU graph colors
+theme[cpu_start]="#8F6E1E"
+theme[cpu_mid]="#B0431F"
+theme[cpu_end]="#982D16"
+
+# Mem/Disk free meter
+theme[free_start]="#4D5C24"
+theme[free_mid]=""
+theme[free_end]="#6E7A36"
+
+# Mem/Disk cached meter
+theme[cached_start]="#6E4218"
+theme[cached_mid]=""
+theme[cached_end]="#9A6428"
+
+# Mem/Disk available meter
+theme[available_start]="#8F6E1E"
+theme[available_mid]=""
+theme[available_end]="#A5852C"
+
+# Mem/Disk used meter
+theme[used_start]="#982D16"
+theme[used_mid]=""
+theme[used_end]="#B0431F"
+
+# Download graph colors
+theme[download_start]="#2F5546"
+theme[download_mid]="#47705C"
+theme[download_end]="#689078"
+
+# Upload graph colors
+theme[upload_start]="#6E4218"
+theme[upload_mid]="#8F5A26"
+theme[upload_end]="#AD7A40"

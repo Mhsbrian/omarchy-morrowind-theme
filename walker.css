@@ -1,0 +1,36 @@
+@define-color selected-text #F3D493;
+@define-color text #CAA560;
+@define-color base #14100A;
+@define-color border #D9B167;
+@define-color foreground #CAA560;
+@define-color background #14100A;
+
+/* Morrowind chrome. This file is @import'ed before omarchy-default/style.css,
+   so every rule is prefixed with `window` to win the cascade on specificity. */
+
+window * {
+  font-family: "Pelagiad";
+  font-size: 20px;
+}
+
+window .box-wrapper {
+  background: alpha(#14100A, 0.96);
+  border: 2px solid #D9B167;
+  outline: 1px solid alpha(#8A6A34, 0.9);
+  outline-offset: -6px;
+  padding: 20px;
+}
+
+window .search-container {
+  background: alpha(#2A2318, 0.6);
+  border: 1px solid alpha(#8A6A34, 0.7);
+  padding: 10px;
+}
+
+window child:selected {
+  background: alpha(#D9B167, 0.14);
+}
+
+window child:selected .item-box * {
+  color: #F3EDDD;
+}
