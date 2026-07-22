@@ -28,6 +28,7 @@ cd omarchy-morrowind-theme
 | `./install.sh` | Morrowind (dark) |
 | `./install.sh --parchment` | + Morrowind Parchment (light) |
 | `./install.sh --with-lockscreen` | + themed lock screen |
+| `./install.sh --with-notifications` | + parchment-scroll notifications (**replaces mako**) |
 | `./install.sh --with-visualizer` | + audio visualizer (`SUPER+M`, needs `cava`) |
 | `./install.sh --with-launcher` | + app launcher (`SUPER+Space` / `SUPER+D`, needs `python3`) |
 | `./install.sh --with-power` | + power menu (`SUPER+Escape`) |

@@ -3,6 +3,21 @@
 All notable changes to this theme are documented here. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions use [SemVer](https://semver.org/).
 
+## [1.2.0] — 2026-07-22
+
+### Added
+- **Themed notifications** (`--with-notifications`) — a Quickshell notification
+  server rendering desktop notifications as illuminated **parchment scrolls**
+  (Pelagiad font, wax seal, gilt corner brackets, scroll-unfurl entrance);
+  critical alerts persist with a red border. INVASIVE: it owns the notification
+  bus, so it **replaces mako** (reversibly). Installed reversibly via a
+  marker-managed autostart entry that stops mako and takes the bus; fully
+  restored (mako back) by `./uninstall.sh --with-notifications`. Included in
+  `--all`. Optional font: `Pelagiad` (falls back gracefully if absent).
+
+### Notes
+- Not part of `--with-shell` (that stays the four non-invasive components).
+
 ## [1.1.0] — 2026-07-21
 
 ### Added

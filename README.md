@@ -21,6 +21,7 @@ A warm, atmospheric [Omarchy](https://omarchy.org/) theme inspired by *The Elder
 - **Native install** — one-line install via Omarchy's theme manager.
 - **Optional themed lock screen** — a matching Quickshell lock (opt-in, fully reversible).
 - **Optional Quickshell desktop suite** — a themed audio visualizer (a *Telvanni living-membrane* spectrum), app launcher, power menu, and workspace overview. Each is opt-in and reverses byte-for-byte.
+- **Optional themed notifications** — desktop notifications as illuminated **parchment scrolls** (Pelagiad, wax seal, unfurl animation). Opt-in; replaces mako and fully reverses.
 - **Zero lock-in** — pure Omarchy theme; no compositor plugins, no system rewrites.
 
 ## 🎨 Palette
@@ -56,11 +57,13 @@ cd omarchy-morrowind-theme
 ./install.sh                    # dark theme
 ./install.sh --parchment        # + light variant
 ./install.sh --with-shell       # + visualizer, launcher, power menu, overview
-./install.sh --all              # everything (variant + lock screen + Quickshell suite)
+./install.sh --with-notifications  # + parchment-scroll notifications (replaces mako)
+./install.sh --all              # everything (variant + lock + notifications + suite)
 ```
 
 Pick individual extras with `--with-visualizer`, `--with-launcher`, `--with-power`,
-`--with-overview`, or `--with-lockscreen`. Run `./install.sh --help` for the full list.
+`--with-overview`, `--with-notifications`, or `--with-lockscreen`. Run
+`./install.sh --help` for the full list.
 
 Then apply:
 
